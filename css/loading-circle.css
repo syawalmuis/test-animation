@@ -5,13 +5,47 @@
   box-sizing: border-box;
 }
 
-#animation {
-  font-family: "Shizuru", cursive;
-  min-height: 100vh;
-  background-color: #ddd;
+.back {
+  display: flex;
+  position: absolute;
+  justify-content: right;
+  align-items: center;
+  padding: 5px 10px;
+  margin: 0 20px 20px 0;
+  border-radius: 5%;
+  border: 1px solid rgb(110, 100, 100);
+  box-shadow: 1px 1px 3px 1px black;
+  bottom: 0;
+  right: 0;
+}
+.back li {
+  list-style: none;
+}
+.back li a {
+  text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: rgb(110, 100, 100);
+  gap: 5px;
+  font-size: 1.7em;
+}
+.back li a span {
+  font-size: 1.5em;
+}
+
+#animation {
+  font-family: "Shizuru", cursive;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  #animation {
+    min-height: 90vh;
+  }
 }
 
 .animation-item {
