@@ -1,4 +1,4 @@
-# Test animation
+# <h1 align="center">Test Animation</h1>
 
 <div align="center">
     <h3>Preview loading</h3>
