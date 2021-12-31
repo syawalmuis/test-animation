@@ -46,6 +46,9 @@
   #animation {
     min-height: 90vh;
   }
+  .back li a {
+    font-size: 1.2em;
+  }
 }
 
 .animation-item {
